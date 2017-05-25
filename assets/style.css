@@ -1,0 +1,81 @@
+/*body{
+	width: 95%;
+}
+
+.accordion a{
+    background-color: #ddd;
+    color: #444;
+    cursor: pointer;
+    padding: 30px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    height: auto;
+    margin: 20px;
+
+
+}
+
+
+.content{
+	display: none;
+	padding: 0 18px;
+	
+}
+
+
+.current{
+	background-color: #ddd;
+}
+
+
+span{
+	float: right;
+}*/
+
+body{
+	width: 95%;
+}
+
+span{
+	float: right;
+	font-size: 20px;
+}
+
+
+.accordion-wrapper{
+	margin-top: 40px;
+}
+.accordion{
+	padding: 15px;
+	height: auto;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.content{
+	padding-top: 10px;
+	padding-left: 10px;
+	display: none;
+	cursor: text;
+
+}
+
+.accordion a{
+	color: #111;
+	background-color: #f0f0f0;
+	width: 100%;
+	padding: 20px;
+	padding-right: 93%;
+	margin: auto;
+
+}
+
+.accordion a:hover{
+		background-color: #aaa;
+
+}
+
+.active{
+	display: block;
+}
