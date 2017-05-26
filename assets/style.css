@@ -1,45 +1,13 @@
-/*body{
-	width: 95%;
-}
-
-.accordion a{
-    background-color: #ddd;
-    color: #444;
-    cursor: pointer;
-    padding: 30px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    height: auto;
-    margin: 20px;
-
-
-}
-
-
-.content{
-	display: none;
-	padding: 0 18px;
-	
-}
-
-
-.current{
-	background-color: #ddd;
-}
-
-
-span{
-	float: right;
-}*/
 
 body{
 	width: 95%;
 }
 
 span{
-	float: right;
 	font-size: 20px;
+	margin-right: 20px;
+	width: 20px;
+	text-align: center
 }
 
 
@@ -50,7 +18,9 @@ span{
 	padding: 15px;
 	height: auto;
 	cursor: pointer;
-	margin-top: 10px;
+	margin-top: 6px;
+	width: auto;
+
 }
 
 .content{
@@ -66,7 +36,7 @@ span{
 	background-color: #f0f0f0;
 	width: 100%;
 	padding: 20px;
-	padding-right: 93%;
+	padding-right: 90%;
 	margin: auto;
 
 }
@@ -76,6 +46,6 @@ span{
 
 }
 
-.active{
-	display: block;
+.open{
+	display: block
 }
